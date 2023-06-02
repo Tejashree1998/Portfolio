@@ -1,0 +1,36 @@
+.carousel-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  
+    @media (min-width: 768px) {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+  
+  .carousel-column {
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .carousel {
+    width: 10%;
+    height: auto;
+    width: 50rem;
+  }
+  
+  .text-column {
+    padding: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .text-column {
+      height: calc(100vh - 80px); /* Adjust the height as needed */
+      overflow-y: auto;
+    }
+  }
+  

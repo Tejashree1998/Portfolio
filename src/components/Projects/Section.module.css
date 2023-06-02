@@ -1,0 +1,55 @@
+/* Section.module.css */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom:2px solid white;
+  }
+  
+  .carousel {
+    margin: 0 auto; /* Center align the carousel */
+    max-width: 100%;
+    padding:2rem;
+  }
+  
+  .carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel .slide img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel .control-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel .control-dots .dot {
+    background-color: #888;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel .control-dots .dot.selected {
+    background-color: #333;
+  }
+
+  .description{
+    padding:2rem;
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  
